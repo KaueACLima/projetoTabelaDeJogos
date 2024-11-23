@@ -1,0 +1,103 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.section-image {
+  max-width: 300px;
+}
+
+.section-content {
+  width: 900px;
+}
+
+.section-content h1 {
+  font-family: "DM Serif Display", serif;
+  margin-bottom: 25px;
+}
+
+.section-content form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.section-content form input {
+  width: 40%;
+}
+
+#toAdd,
+#setUpGameTables,
+#newClubs {
+  cursor: pointer;
+  width: 25%;
+  padding: 8px;
+}
+
+#toAdd {
+  border: none;
+  background-color: #4179e0;
+  color: #f0f8ff;
+}
+
+#toAdd:hover {
+  background-color: #17418f;
+}
+
+#setUpGameTables {
+  border: none;
+  background-color: #149935;
+  color: #f0f8ff;
+}
+
+#setUpGameTables:hover {
+  background-color: #1db844;
+}
+
+
+#newClubs {
+  border: none;
+  background-color: #e02b34;
+  color: #f0f8ff;
+}
+
+#newClubs:hover {
+  background-color: #c51b23;
+}
+
+#content-candles {
+  text-align: center;
+  margin: 25px auto;
+}
+
+#content-candles img {
+  width: 90px;
+}
+
+h5 {
+  text-align: right;
+  font-style: italic;
+  margin: 5px 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}

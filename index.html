@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--* FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+
+  <!--* CSS -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/index.css">
+
+  <title>Programa Tabelas de Jogos</title>
+</head>
+
+<body>
+  <main>
+    <section class="section-image">
+      <img src="./assets/img/exercImg.jpg" alt="Imagem do exercício">
+    </section>
+    <section class="section-content">
+      <h1>Copa do Brasil - Classificados</h1>
+      <form>
+        <label for="inClub">Digite seu clube</label>
+        <input type="text" id="inClub" placeholder="para ser adicionado a tabela" required autofocus>
+        <div>
+          <input type="submit" id="toAdd" value="Adicionar">
+          <input type="submit" id="setUpGameTables" value="Montar tabelas de Jogos">
+          <input type="submit" id="newClubs" value="Novas clubes">
+        </div>
+      </form>
+      <p id="mensage"></p>
+      <div id="content-club"></div>
+      <div id="content-table"></div>
+    </section>
+  </main>
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>
